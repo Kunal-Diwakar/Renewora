@@ -71,7 +71,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container" ref={container}>
-      <div className="menu-bar fixed bg-white/60 backdrop-blur top-0 left-0 w-full px-10 py-4 flex justify-between items-center z-10 ">
+      <div className="menu-bar bg-white/60 backdrop-blur top-0 left-0 w-full px-10 py-4 flex justify-between items-center z-10 ">
         <div className="menu-text text-base lg:text-lg font-medium invert-0 select-none">
           <Link className="inline-block nlink" href={"/"}>
             RENEWORA
